@@ -22,7 +22,7 @@ tasks:
           - master
 
     scopes: [
-      "queue:create-task:highest:proj-bergamot/*",
+      "queue:create-task:highest:proj-bergamot/ci-*",
       "queue:route:index.project.bergamot.*",
       "index:insert-task:project.bergamot.*",
       "queue:scheduler-id:taskcluster-github"
