@@ -36,7 +36,7 @@ tasks:
         taskclusterProxy: true
 
       env:
-        TC_DECISION_SHA: 986d03b6924653fdd2cfd4d743a85a22e1b600fc
+        TC_DECISION_SHA: c08b34a987e17306e3b947fd503ff2042ecefe44
 
       command:
         - "/bin/bash"
