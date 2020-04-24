@@ -52,6 +52,10 @@ cmake -DBUILD_ARCH=${BUILD_ARCH} \
 
 make -j 4
 
-cd ../examples/training-basics
+cd ../examples/tools
+
+make all
+
+cd ../training-basics
 
 ./run-me.sh 0 1 2 3 4 5 6 7
