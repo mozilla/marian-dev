@@ -1,7 +1,6 @@
 #!/bin/bash
 
 export BUILD_ARCH=x86-64
-export MARIAN_VERSION=780c889f9e698416a25d45f915be48864ad81c4e
 
 wget https://apt.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
 
@@ -37,8 +36,6 @@ apt-get install -y \
     python3-pip \
     unzip \
     wget
-
-git checkout ${MARIAN_VERSION}
 
 mkdir build
 
