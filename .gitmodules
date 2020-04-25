@@ -14,3 +14,6 @@
 [submodule "src/3rd_party/fbgemm"]
 	path = src/3rd_party/fbgemm
 	url = https://github.com/mozilla/FBGEMM
+[submodule "training"]
+	path = training
+	url = https://github.com/mozilla/marian-training.git
