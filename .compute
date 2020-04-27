@@ -49,6 +49,10 @@ cmake -DBUILD_ARCH=${BUILD_ARCH} \
 
 make -j 4
 
-cd ../training/training-basics-sentencepiece
+cd ../training/tools
+
+make all
+
+cd ../transformer
 
 ./run-me.sh 0 1 2 3 4 5 6 7
