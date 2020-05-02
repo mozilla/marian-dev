@@ -53,6 +53,6 @@ cd ../training/tools
 
 make all
 
-cd ../wmt2017-transformer
+cd ../wmt2017-uedin
 
 ./run-me.sh 0 1 2 3 4 5 6 7
