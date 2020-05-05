@@ -1,5 +1,6 @@
 #!/bin/bash
 
-cd training/importers
+cd training
+cd importers
 
 ./europarl.sh
