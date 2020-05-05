@@ -1,6 +1,13 @@
 #!/bin/bash
 
-cd training
-cd importers
+# Move into importers directory
+cd training/importers
 
+# Import europarl
 ./europarl.sh
+
+# Import setimes
+./setimes.sh
+
+# Import commoncrawl
+./commoncrawl.sh
