@@ -12,7 +12,7 @@
 	url = https://github.com/mozilla/nccl
 [submodule "src/3rd_party/fbgemm"]
 	path = src/3rd_party/fbgemm
-	url = https://github.com/marian-nmt/FBGEMM
+	url = https://github.com/mozilla/FBGEMM
 	branch = master
 [submodule "src/3rd_party/simple-websocket-server"]
 	path = src/3rd_party/simple-websocket-server
