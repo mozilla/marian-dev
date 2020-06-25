@@ -33,7 +33,7 @@ apt-get install -y \
     unzip \
     wget
 
-# Build the server 
+# Build
 mkdir build
 cd build
 cmake -DBUILD_ARCH=${BUILD_ARCH} \
