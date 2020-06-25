@@ -1,19 +1,19 @@
 [submodule "examples"]
 	path = examples
-	url = https://github.com/marian-nmt/marian-examples
+	url = https://github.com/mozilla/marian-examples
 [submodule "regression-tests"]
 	path = regression-tests
-	url = https://github.com/marian-nmt/marian-regression-tests
+	url = https://github.com/mozilla/marian-regression-tests
 [submodule "src/3rd_party/sentencepiece"]
 	path = src/3rd_party/sentencepiece
-	url = https://github.com/marian-nmt/sentencepiece
+	url = https://github.com/mozilla/sentencepiece
 [submodule "src/3rd_party/nccl"]
 	path = src/3rd_party/nccl
-	url = https://github.com/marian-nmt/nccl
+	url = https://github.com/mozilla/nccl
 [submodule "src/3rd_party/fbgemm"]
 	path = src/3rd_party/fbgemm
-	url = https://github.com/marian-nmt/FBGEMM
+	url = https://github.com/mozilla/FBGEMM
 	branch = master
 [submodule "src/3rd_party/simple-websocket-server"]
 	path = src/3rd_party/simple-websocket-server
-	url = https://github.com/marian-nmt/Simple-WebSocket-Server
+	url = https://github.com/mozilla/Simple-WebSocket-Server
